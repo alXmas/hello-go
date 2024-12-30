@@ -1,4 +1,4 @@
-package main
+package hello_world
 
 const (
 	spanish = "Spanish"
@@ -24,7 +24,4 @@ func Hello(name string, language string) string {
 	}
 
 	return prefix + name
-}
-
-func main() {
 }
