@@ -5,11 +5,12 @@
 
 ### 👨‍🚀 How try?
 
-Now you can run tests:
+Now you can run build and linter:
 ```
-go test -v ./...
+make
 ```
-Check code style, like this:
+And then run all tests:
+
 ```
-go fmt ./... 
+make test
 ```
