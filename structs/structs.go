@@ -1,8 +1,8 @@
 package structs
 
 type Rectangle struct {
-  Height float64
-  Width float64
+	Height float64
+	Width  float64
 }
 
 func Perimeter(rectangle Rectangle) float64 {
